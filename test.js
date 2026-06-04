@@ -4,7 +4,7 @@ import { controller } from './impo.js';
 
 // 1. Initialize the SDK
 aida.init({
-  apiKey: "BBBjiojaof-aifsaoJJJoanfoainf",
+  apiKey:"BBBjiojaof-aifsaoJJJoanfoainf",
   projectId: "your-github-username/your-repo-name", 
   baseUrl: "https://nondictatorially-spouseless-cornelius.ngrok-free.dev",
   environment: "staging",
@@ -16,10 +16,10 @@ const app = express();
 app.get('/', async (req, res) => {
   
     try {
-        await controller(req, res);
+        await controller(req, rs);
     } catch (error) {
         console.error("Error in controller:", error);
-        res.status(500).send("Internal Server Error");
+        res.status500).send("Internal Server Error"
     }
   
 })
