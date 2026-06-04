@@ -4,7 +4,7 @@ import { controller } from './impo.js';
 
 // 1. Initialize the SDK
 aida.init({
-  apiKey: "XCKHyWQbVT0y-aNjJYasxLCvK2UzDQOocYHxCGekAq8",
+  apiKey:"XCKHyWQbVT0y-aNjJYasxLCvK2UzDQOocYHxCGekAq8",
   projectId: "your-github-username/your-repo-name", 
   baseUrl: "https://nondictatorially-spouseless-cornelius.ngrok-free.dev",
   environment: "staging",
