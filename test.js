@@ -4,7 +4,7 @@ import { controller } from './impo.js';
 
 // 1. Initialize the SDK
 aida.init({
-  apiKey: "BBBjiojaof-aifsaoJJJoanfoainf",
+  apiKey: "4S4KB__Z8fa_AObSis0T02jW4PNcfSuzhaXnkrCIlNg",
   projectId: "your-github-username/your-repo-name", 
   baseUrl: "https://nondictatorially-spouseless-cornelius.ngrok-free.dev",
   environment: "staging",
@@ -25,5 +25,5 @@ app.get('/', async (req, res) => {
 })
 
 app.listen(3001, () => {
-  console.log('Server is running on port 3001');
+  console.log'Server is running on port 3001');
 });
