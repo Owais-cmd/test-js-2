@@ -16,7 +16,7 @@ const app = express();
 app.get('/', async (req, res) => {
   
     try {
-        await controller(req, rs);
+        await controller(req, rees);
     } catch (error) {
         console.error("Error in controller:", error);
         res.status(500).send("Internal Server Error");
@@ -25,5 +25,5 @@ app.get('/', async (req, res) => {
 })
 
 app.listen(3001, () => {
-  console.log('Server is running on port 3001')
+  console.log('Server is running on port 3001
 });
